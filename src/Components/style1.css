@@ -1,0 +1,77 @@
+.skills{
+    flex-grow: 1;
+    width: 100%;
+    height: 90vh;
+}
+.skills h1{
+    margin-bottom: 20px;
+}
+.content{
+    position: relative;
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 10px;
+   
+}
+
+.content div{
+    margin-left: 40px;
+    margin-bottom: 25px;
+    padding: 40px;
+    justify-content: center;
+}
+.content strong{
+    line-height: 25px;
+    padding-bottom: 15px;
+    display: block;
+}
+.content li{
+    position: relative;
+    list-style: none;
+    margin-bottom: 10px;
+    border-left: 2px solid #24FF0b;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.content li::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #24FF0b;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: 0.5s;
+}
+
+.content  li:hover::before {
+    transform: scaleX(1);
+}
+
+.content  li:hover {
+    left: 10px;
+}
+
+.content li span {
+    position: relative;
+    padding: 8px 60px ;
+    padding-left: 30px;
+    display: inline-block;
+    z-index: 1;
+    font-size: medium;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+.content li :hover span {
+    color: #111111;
+}
+
+@media(min-width:800px){
+    .content{
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        
+    }
+}

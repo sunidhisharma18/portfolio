@@ -1,0 +1,22 @@
+.app {
+  text-align: center;
+}
+
+.app{
+  display: flex;
+  margin: 0px auto;
+  width: 100%;
+  padding: 0;
+  min-height: 100%;
+  flex-direction: column;
+  background-color:#ffff;
+}
+
+@media (max-width: 800px){
+  .app{
+    padding:0 x;
+    margin-top: 5vh;
+    min-height: 100%;
+  }
+}
+  
