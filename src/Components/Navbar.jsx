@@ -32,17 +32,17 @@ const Navbar = () => {
             <div className="nav-wrapper">
                 <div className="logo">
                     <Link to="/">
-                     <img src="images\Portfolio.me-removebg-preview.png" alt="brand"/>   
+                     <img src={"images/Portfolio.me-removebg-preview.png"} alt="brand"/>   
                     </Link>
                 </div>
             <div className="list-wrapper">
-                <img src="images\hamburger-menu-icon-transparent-20.jpg" alt="Menu"
+                <img src={"images/hamburger-menu-icon-transparent-20.jpg"} alt="Menu"
                    style={{ opacity: !open ? 1 : 0 }}
                     onClick={() => {
                     setOpen(!open);
                     }}
             />
-                <img src="images\delete-462216_1280.png" alt="Menu cross"
+                <img src={"images/delete-462216_1280.png"} alt="Menu cross"
                         style={{ opacity: open ? 1 : 0 }}
                             onClick={() => {
                             setOpen(!open);
