@@ -16,7 +16,7 @@ The project contains user details, pet details, pet donation records, abandoned 
       </p><br></br>
       <hr></hr>
       <br />
-      <p><strong>Project-1:</strong> Docto- Online Consultation System</p>
+      <p><strong>Project-2:</strong> Docto- Online Consultation System</p>
       <p><strong>ROle:</strong> Front-end, JSP and Documentation</p>
       <p><strong>Date:</strong> (03/2021 - present)</p>
       <p className="text">
